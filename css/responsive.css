@@ -1,0 +1,138 @@
+ /*Extra small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap*/
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) { 
+
+
+    
+}
+@media (max-width: 1199px) { 
+.qua-item-img img{
+    padding-right: 40px;
+}
+
+
+}
+/*Large devices (desktops, 992px and up)*/
+@media (max-width: 991px) { 
+.header .navbar-light .navbar-nav .active:after {
+         max-width: 77px;        
+}
+.why-main-content{
+    padding: 0;
+}
+.why-us {
+    background-size: cover;
+}
+.mb-sm-30{
+    margin-bottom: 30px;
+}
+.quality-item:after {    
+    left: -9991px;
+}
+.testi-slider{
+    margin-top: 60px;
+}
+.widget{
+    margin-bottom: 60px;
+}
+.we-title {
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 767px) { 
+    .port-nav ul li{
+        margin-bottom: 20px;    
+    }
+
+}
+@media (max-width: 768px) { 
+    .fact-item ul{
+        margin-left: 80px;
+    }
+    .fact-item ul li{
+        
+        width: 50%;
+    }
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575px) {
+.we-work{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.testi-main-img {
+    background: none;
+}
+.testi-575{
+    display: block;
+}
+
+
+ }
+
+
+
+@media  (min-width: 0px) and (max-width: 480px){
+.title h3 {
+    font-size: 18px;
+}
+.section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.navbar-brand img {
+    max-width: 150px;
+}    
+.bann-title h2 {
+    font-size: 30px;      
+}
+.bann-btn {
+    padding: 5px 20px;
+    margin-left: 0;
+}
+.banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.why-icons {
+    width: 100%;
+    float:none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.why-content {
+     padding-left:0;
+     margin-top: 0; 
+     margin-bottom: 30px;
+}
+.why-content h4 {
+    
+    font-size: 18px;
+}
+.why-in {    
+    text-align: center;
+    padding: 50px 14px;
+}
+.why-us{
+    background: none;
+}
+.fact-item ul{
+    margin-left:0;
+}
+.fact-item ul li{
+   width: 100%;
+}
+.port-nav{
+    margin-top: 0;
+}
+
+
+
+}
